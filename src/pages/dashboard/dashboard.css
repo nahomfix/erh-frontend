@@ -1,0 +1,38 @@
+.dashboard__stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.stat__card {
+    padding: 1rem 2rem;
+    border: 1px solid #ddd;
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 0;
+    gap: 2rem;
+}
+
+.charts__card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .dashboard__stats {
+        grid-template-columns: 1fr;
+    }
+
+    .charts {
+        grid-template-columns: 1fr;
+    }
+
+    .charts__card {
+        padding: 1rem 0.5rem;
+    }
+}

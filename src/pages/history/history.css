@@ -1,0 +1,12 @@
+.historyContainer {
+  display: flex;
+  width: 100%;
+}
+
+.badge-red {
+  background-color: #dc3545 !important;
+}
+
+.badge-green {
+  background-color: #28a745 !important;
+}

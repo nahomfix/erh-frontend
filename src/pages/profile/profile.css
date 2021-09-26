@@ -1,0 +1,104 @@
+.profile__header {
+  position: relative;
+}
+
+.profile__cover {
+  position: relative;
+}
+
+.profile__coverImg {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+}
+
+.profile__photo {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: -80px;
+}
+
+.profile__photo--relative {
+  position: relative;
+}
+
+.profile__photoImg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.profile__photo__editIcon {
+  position: absolute;
+  bottom: 0;
+  right: -20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* .profileRight {
+    flex: 6;
+} */
+
+/* .profileCover {
+    height: 320px;
+    position: relative;
+} */
+
+/* .profileCoverImg {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+} */
+
+/* .profileUserImg {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+} */
+
+/* .profileUser {
+    position: relative;
+} */
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.profileInfoName {
+  font-size: 24px;
+}
+
+.profileInfoDesc {
+  font-weight: 300;
+}
+
+.profileRightBottom {
+  display: flex;
+}
+
+/* .profileRightItem {
+    margin-left: 640px;
+    color: black;
+} */
+
+@media screen and (max-width: 500px) {
+  .profileInfoName {
+    font-size: 18px;
+  }
+  .profileInfoDesc {
+    font-size: 12px;
+  }
+}

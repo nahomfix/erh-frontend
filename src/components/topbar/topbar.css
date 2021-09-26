@@ -1,0 +1,40 @@
+.topbarContainer {
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    padding: 0 30px;
+}
+
+.searchbar {
+    height: 30px;
+    width: 50%;
+    margin-right: 20px;
+    background-color: lightgray;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.searchInput {
+    border: none;
+    width: 90%;
+    background-color: lightgrey;
+    border-radius: 30px;
+}
+
+.searchInput:focus {
+    outline: none;
+}

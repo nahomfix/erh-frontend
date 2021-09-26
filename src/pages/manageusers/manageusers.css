@@ -1,0 +1,14 @@
+.card-header {
+    border: none;
+    background: none !important;
+    font-size: 1.5rem;
+}
+
+.table {
+    margin-top: 30px !important;
+    margin-bottom: 0px !important;
+}
+
+.center__row {
+    vertical-align: middle;
+}

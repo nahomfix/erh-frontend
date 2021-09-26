@@ -1,0 +1,11 @@
+.table {
+  margin-top: 50px;
+}
+.accepted {
+  background-color: lightblue;
+  width: 100px;
+}
+.rejected {
+  background-color: #ff7f7f;
+  width: 100px;
+}

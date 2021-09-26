@@ -1,0 +1,27 @@
+.content {
+    margin-left: 0px;
+}
+
+.content.is-open {
+    margin-left: 228px;
+}
+
+@media screen and (max-width: 500px) {
+    .content.is-open {
+        margin-left: 100%;
+        /* display: none; */
+    }
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+.main__container {
+    padding: 10px 30px;
+}
+
+.close {
+    border: none;
+    background: none;
+}
